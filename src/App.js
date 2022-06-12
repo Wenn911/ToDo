@@ -35,6 +35,8 @@ function App() {
         setFiltered(todos)
       }, [todos])
     
+      // Так как думаю, что время на существование вакансии ограничено, не додумал, как правильно сделать фильтрацию тасков
+
     const handleFilter = (status) => {
       if (status === 'All') { 
         setFiltered(todos);
